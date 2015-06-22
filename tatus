@@ -1,0 +1,61 @@
+[1mdiff --cc Valkyr/Valkyr.csproj[m
+[1mindex 42dd499,cc1d304..0000000[m
+[1m--- a/Valkyr/Valkyr.csproj[m
+[1m+++ b/Valkyr/Valkyr.csproj[m
+[36m@@@ -46,16 -46,43 +46,56 @@@[m
+      <Reference Include="System.Xml" />[m
+    </ItemGroup>[m
+    <ItemGroup>[m
+[32m++<<<<<<< HEAD[m
+[32m +    <Compile Include="Edition des statistiques.cs">[m
+[32m +      <SubType>Form</SubType>[m
+[32m +    </Compile>[m
+[32m +    <Compile Include="Edition des statistiques.Designer.cs">[m
+[32m +      <DependentUpon>Edition des statistiques.cs</DependentUpon>[m
+[32m +    </Compile>[m
+[32m +    <Compile Include="Program.cs" />[m
+[32m +    <Compile Include="Properties\AssemblyInfo.cs" />[m
+[32m +    <EmbeddedResource Include="Edition des statistiques.resx">[m
+[32m +      <DependentUpon>Edition des statistiques.cs</DependentUpon>[m
+[32m++=======[m
+[32m+     <Compile Include="Ajout utilisateur.cs" />[m
+[32m+     <Compile Include="Ajout utilisateur.Designer.cs">[m
+[32m+       <DependentUpon>Ajout utilisateur.cs</DependentUpon>[m
+[32m+     </Compile>[m
+[32m+     <Compile Include="Connexion utilisateur.cs" />[m
+[32m+     <Compile Include="Connexion utilisateur.Designer.cs">[m
+[32m+       <DependentUpon>Connexion utilisateur.cs</DependentUpon>[m
+[32m+     </Compile>[m
+[32m+     <Compile Include="Fenetre import export.cs" />[m
+[32m+     <Compile Include="Fenetre import export.Designer.cs">[m
+[32m+       <DependentUpon>Fenetre import export.cs</DependentUpon>[m
+[32m+     </Compile>[m
+[32m+     <Compile Include="Modification des droits.cs" />[m
+[32m+     <Compile Include="Modification des droits.Designer.cs">[m
+[32m+       <DependentUpon>Modification des droits.cs</DependentUpon>[m
+[32m+     </Compile>[m
+[32m+     <Compile Include="Program.cs" />[m
+[32m+     <Compile Include="Properties\AssemblyInfo.cs" />[m
+[32m+     <Compile Include="Saisieadhérent.cs" />[m
+[32m+     <Compile Include="Saisieadhérent.Designer.cs">[m
+[32m+       <DependentUpon>Saisieadhérent.cs</DependentUpon>[m
+[32m+     </Compile>[m
+[32m+     <Compile Include="Suppression utilisateur.cs" />[m
+[32m+     <Compile Include="Suppression utilisateur.Designer.cs">[m
+[32m+       <DependentUpon>Suppression utilisateur.cs</DependentUpon>[m
+[32m+     </Compile>[m
+[32m+     <EmbeddedResource Include="Ajout utilisateur.resx">[m
+[32m+       <DependentUpon>Ajout utilisateur.cs</DependentUpon>[m
+[32m+     </EmbeddedResource>[m
+[32m+     <EmbeddedResource Include="Connexion utilisateur.resx">[m
+[32m+       <DependentUpon>Connexion utilisateur.cs</DependentUpon>[m
+[32m+     </EmbeddedResource>[m
+[32m+     <EmbeddedResource Include="Fenetre import export.resx">[m
+[32m+       <DependentUpon>Fenetre import export.cs</DependentUpon>[m
+[32m+     </EmbeddedResource>[m
+[32m+     <EmbeddedResource Include="Modification des droits.resx">[m
+[32m+       <DependentUpon>Modification des droits.cs</DependentUpon>[m
+[32m++>>>>>>> 4ed4b12779fe4a1ff3ca7f12dd948157738d6939[m
+      </EmbeddedResource>[m
+      <EmbeddedResource Include="Properties\Resources.resx">[m
+        <Generator>ResXFileCodeGenerator</Generator>[m
