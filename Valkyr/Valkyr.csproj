@@ -46,17 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Ajout utilisateur.cs" />
+    <Compile Include="Ajout utilisateur.Designer.cs">
+      <DependentUpon>Ajout utilisateur.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Connexion utilisateur.cs" />
+    <Compile Include="Connexion utilisateur.Designer.cs">
+      <DependentUpon>Connexion utilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetre import export.cs" />
+    <Compile Include="Fenetre import export.Designer.cs">
+      <DependentUpon>Fenetre import export.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification des droits.cs" />
+    <Compile Include="Modification des droits.Designer.cs">
+      <DependentUpon>Modification des droits.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Saisieadhérent.cs" />
+    <Compile Include="Saisieadhérent.Designer.cs">
+      <DependentUpon>Saisieadhérent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression utilisateur.cs" />
+    <Compile Include="Suppression utilisateur.Designer.cs">
+      <DependentUpon>Suppression utilisateur.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ajout utilisateur.resx">
+      <DependentUpon>Ajout utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connexion utilisateur.resx">
+      <DependentUpon>Connexion utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetre import export.resx">
+      <DependentUpon>Fenetre import export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification des droits.resx">
+      <DependentUpon>Modification des droits.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +93,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Saisieadhérent.resx">
+      <DependentUpon>Saisieadhérent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression utilisateur.resx">
+      <DependentUpon>Suppression utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
